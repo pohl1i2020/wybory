@@ -1,0 +1,78 @@
+header {
+  display: flex;
+  height: 300px;
+  background-color: #9d032a;
+  /* justify-content: center; */
+  /* text-align: center; */
+}
+#godlo {
+  justify-content: left;
+  text-align: left;
+}
+h1 {
+  color: white;
+  font-size: 72px;
+  text-align: center;
+  justify-content: center;
+}
+.linki {
+  color: white;
+  /* align-items: center; */
+  background-color: #9d032a;
+  /* padding: 2rem; */
+  border: #9d032a;
+  border: 8px solid #9d032a;
+  border-radius: 60%;
+}
+nav {
+  text-align: center;
+  margin: 2rem;
+}
+#baner {
+  margin: 0 auto;
+  display: block;
+}
+h2 {
+  text-align: center;
+}
+article {
+  margin: 5px;
+  width: 50%;
+  padding: 2rem;
+  border-color: #9d032a;
+  border-radius: 2px;
+  border-style: solid;
+  /* border: 2px, solid, #9d032a; */
+  /* text-align: center; */
+}
+.wyniki {
+  width: 100%;
+  /* column-count: 2; */
+  display: flex;
+}
+/* main {
+  width: 50%;
+  padding: 2rem;
+  border-color: #9d032a;
+  border-radius: 2px;
+  border-style: solid;
+} */
+section {
+  margin-top: 20px;
+  padding: 2rem;
+  border-color: #9d032a;
+  border-radius: 2px;
+  border-style: solid;
+}
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #9d032a;
+  color: white;
+  text-align: center;
+}
+#stopka {
+  display: flex;
+  justify-content: right;
+  text-align: right;
+}
