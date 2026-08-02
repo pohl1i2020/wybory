@@ -76,3 +76,36 @@ footer {
   justify-content: right;
   text-align: right;
 }
+table {
+  width: 90%;
+  margin: 2rem auto;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #9d032a;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  background-color: #9d032a;
+  color: white;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f7e9ec;
+}
+
+caption {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.zrodlo {
+  text-align: center;
+  font-size: 14px;
+  color: #666;
+}
