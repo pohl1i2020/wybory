@@ -71,7 +71,7 @@ footer {
   color: white;
   text-align: center;
 }
-#stopka {
+.stopka {
   display: flex;
   justify-content: right;
   text-align: right;
